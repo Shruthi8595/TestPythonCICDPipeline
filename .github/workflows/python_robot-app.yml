@@ -28,13 +28,6 @@ jobs:
         pip install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-    - name: Store test report
-      uses: actions/upload-artifact@v3
-      if: always()
-      with:
-        name: reports
-        path: reports
-
     - name: Test with robot
       run: |
         robot normal_file.robot
