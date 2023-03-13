@@ -39,11 +39,10 @@ jobs:
       run: |
         robot normal_file.robot
 
-  reports:
     - name: Download artifact
       id: download-artifact
       uses: dawidd6/action-download-artifact@v2
       with:
-        workflow: workflow_name.yml
+        workflow: python_robot-app.yml
 
 
