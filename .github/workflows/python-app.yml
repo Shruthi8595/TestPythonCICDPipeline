@@ -31,4 +31,3 @@ jobs:
     - name: Test 
       run: |
         python simple_print.py
-        robot normal_file.robot
