@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0 (Python 3.10.4 on win32)" generated="20230313 11:49:13.998" rpa="false" schemaversion="3">
+<suite id="s1" name="Normal File" source="C:\Users\91994\PycharmProjects\TestPythonCICDPipeline\normal_file.robot">
+<test id="s1-t1" name="SimpleLog" line="11">
+<kw name="Simple Test Statement">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${simplePrint} ${statement}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230313 11:49:14.046" endtime="20230313 11:49:14.046"/>
+</kw>
+<status status="PASS" starttime="20230313 11:49:14.043" endtime="20230313 11:49:14.046"/>
+</kw>
+<status status="PASS" starttime="20230313 11:49:14.043" endtime="20230313 11:49:14.046"/>
+</test>
+<doc>Simple Robot file</doc>
+<status status="PASS" starttime="20230313 11:49:14.012" endtime="20230313 11:49:14.046"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Normal File">Normal File</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
